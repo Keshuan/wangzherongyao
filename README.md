@@ -2,9 +2,9 @@
 
 如果使用的是windows系统的话需要把以下代码注释
 ```
-import uvloop
+#import uvloop
 
-asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
+#asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
 ```
 2分钟下载4000张壁纸
   
